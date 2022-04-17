@@ -1,0 +1,77 @@
+.shop-topbar-wrapper{
+  display: flex;
+}
+.shop-topbar-right{
+  display: flex;
+  justify-content: end;
+}
+.shop-topbar-wrapper .shop-topbar-left span {
+  color: #6d6d6d;
+  font-weight: 500;
+  font-style: italic;line-height: 35px;
+}
+.shop-topbar-wrapper .shop-topbar-right .shop-sorting-area {
+  margin-right: 10px;
+}
+.shop-topbar-wrapper select{
+  padding: 7px 0 7px 11px;
+  border: 1px solid #b7b5b5;
+  color: #787777;
+  font-style: italic;
+}
+.shop-topbar-wrapper select:focus{
+  border: 1px solid #b7b5b5;
+}
+.shop-topbar-wrapper .shop-view-mode  .i{
+  border: 1px solid #ccc;
+  padding: 9px;
+  margin-right: 10px;
+  vertical-align: -8px;
+}
+.pagination{
+  justify-content: center;
+}
+.pagination .page-item{
+  margin: 0 10px;
+}
+.pagination .page-item a{
+  color: #686767;
+  font-size: 16px;
+}
+.pagination .page-item .i{
+  font-size: 12px;
+  color: #999797;
+  margin-left: 5px;
+  vertical-align: -5px;
+}
+.ModernChair-img-2{
+  position: relative;text-align: center;
+}
+ .ModernChair-img-2 img{
+  width: 100%;
+}
+.ModernChair-img-2 button{
+  position: absolute;
+  top: 250px;
+left: 50%;
+transform: translateX(-50%);
+opacity: 0;background-color: #fff;
+}
+.shop-list-wrap .shop-list-content h3 {
+  font-weight: 500;
+  margin: 0 0 10px;
+  font-size: 18px;font-family: font5;
+}
+.Shop-Mordern .product-price {
+  font-size: 17px;
+  color: #918e8e;
+  font-family: 'font4';
+}
+.Shop-Mordern .col-lg-8 p{
+  margin-bottom: 20px;
+}
+.Shop-Mordern .col-lg-8 button{
+  background-color: #fff;
+  box-shadow: 1px 1px 2px 2px #f2f2f2;
+  margin-right: 10px;
+}

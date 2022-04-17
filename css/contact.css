@@ -1,0 +1,46 @@
+.main li{
+  padding-right: 34px;
+}
+textarea{
+  width: 100%;height: 90%;
+  border: 1px solid #ebebeb;
+  padding: 30px;
+}
+textarea:focus{
+  width: 100%;height: 90%;
+  border: 1px solid #ebebeb;
+  padding: 30px;
+  outline: 0;
+}
+.changImgcolor{
+  float: right;
+}
+.contact-us-area h2{
+  font-size: 36px;
+  font-weight: 600;
+  color: #323232;
+  margin: 0;
+  text-align: center;
+}
+.contact-us-area li h3{
+  font-size: 24px;
+  font-weight: 500;font-family: font5;
+  
+  position: relative;
+  display: inline-block;
+ margin: 20px 0;
+}
+.contact-us-area li p{
+  font-size: 16px;
+  color: #323232;
+  margin: 0 0 30px;    font-weight: 400;
+  line-height: 24px;
+}
+.contact-us-area li p span{
+  display: block;
+  font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+    font-family: font4;
+    margin: 5px 0;
+}

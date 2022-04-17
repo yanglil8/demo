@@ -1,0 +1,145 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: 350;
+    font-size: 16px;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;  border-radius: 0;
+}
+body{
+  font-size: 0.875rem;
+  font-family: font1;
+  border-radius: 0;
+}
+@font-face {
+  font-family: font1;
+  src: url(../font/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2);
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: font2;
+  src: url(../font/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2);
+  font-weight: 500;
+}
+@font-face {
+  font-family: font3;
+  src: url(../font/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2);
+}
+@font-face {
+  font-family: font4;
+  src: url(../font/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2)
+}
+@font-face {
+  font-family: font5;
+  src: url(../font/pxiEyp8kv8JHgFVrJJfecg.woff2);
+}
+
+
+ul li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+a:hover{
+  text-decoration: none;
+}
+.bg-gray{
+  background-color: #f5f3f3;
+}
+.bg-gray-2{
+  background-color: #f4f4f4;
+}
+.bg-gray-3{
+  background-color: #f0f0f0;
+}
+.mt-60{
+  margin-right: 60px;
+}
+.mt-15{
+  margin-top: 15px;
+}
+.mt-30{
+  margin-top: 30px;
+}
+.mb-10{
+  margin-bottom: 10px;
+}
+.mb-15{
+  margin-bottom: 15px;
+}
+.mb-25{
+  margin-bottom: 25px;
+}
+.mb-20{
+  margin-bottom: 20px;
+}
+.mr-20{
+  margin-right: 20px;
+}
+.mb-30{
+  margin-bottom: 30px;
+}
+.mb-35{
+  margin-bottom: 35px;
+}
+.mb-40{
+  margin-bottom: 40px;
+}
+.mb-50{
+  margin-bottom: 50px;
+}
+.mb-55{
+  margin-bottom: 55px;
+}
+.mb-75{
+  margin-bottom: 75px;
+}
+.pb-35{
+  padding-bottom: 35px;
+}
+.pb-30{
+  padding-bottom: 30px;
+}
+.pb-100{
+  padding-bottom: 100px;
+}
+.pb-70{
+  padding-bottom: 70px;
+}
+.pb-95{
+  padding-bottom: 95px;
+}
+.pt-80{
+  padding-top: 80px;
+}
+.pt-100{
+  padding-top: 100px;
+}
+.border-style{
+  position: relative;
+}
+.bg-img{
+  background-position: center center;
+  background-size: cover;
+}
+.align-items-center{
+  align-items: center!important;
+}
+.bg-padding-1{
+  padding: 52px 0 60px;
+}

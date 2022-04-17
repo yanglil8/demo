@@ -1,0 +1,70 @@
+header .header-top{
+  background-color: #f5f3f4;
+}
+header .header-top p,header .header-top li.language>a{
+  line-height: 51px; letter-spacing: 1px;
+}
+header .header-top .language-wrap{
+  display: flex;
+  justify-content: flex-end;
+}
+header .header-top li.language{
+  position: relative;
+  float: left;
+}
+header .header-top .dropdown{
+  position: absolute; 
+  display: none;
+}
+header .header-top .dropdown{
+  padding: 25px 15px 10px;
+  width: 135px;
+  border: 1px solid #fff;
+  box-shadow: 3px 3px 20px #e2dfe0;
+}
+header .header-top .dropdown img{
+  margin-right: 6px;
+}
+header .header-top a{
+  color: #383838;
+  font-size: 15px;
+}
+header .header-top li.language>a{
+  padding: 0 25px; 
+}
+header .header-top li.language:last-child>a{
+  padding-right: 0;
+}
+header .header-top li.language>a::after{
+  content: '\e65e';
+  font-family: i;
+  padding-left: 3px; 
+  font-size: 10px;
+  vertical-align: 2px;
+  font-weight: 400;
+}
+header .header-top li .border-style{
+  width: 1px;height: 13px;background-color: rgb(90, 88, 88);display: inline-block;
+}
+header .header-top li.language:last-child>a::before{ 
+  content: '';
+  width: 16px;height: 11px;display: inline-block;
+  background: url(../img/flag.png) no-repeat;margin-right: 13px;
+}
+header .header-top .dropdown li{
+  padding: 0 0 12px;
+}
+/* header .header-bot ul li{
+  float: left;
+  margin-right: 18px;
+  margin-left: 18px;
+} */
+header .banner-bot{
+  background-color: #ccc;
+}
+/* header .banner-bot a img:hover{
+  transform: scale(1.1);
+} */
+.main .card h4{
+  text-transform: capitalize;
+}
